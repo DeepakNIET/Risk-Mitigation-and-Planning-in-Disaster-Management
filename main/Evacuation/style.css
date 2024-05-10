@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push content to the right */
+  }
+  
+  .navbar a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #fffb00;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  
+  /* Logo */
+  .logo {
+    height: 5rem;
+    /* border-radius: 50px; */
+  }
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Set the position to fixed */
+  bottom: 0;
+  width: 100%;
+}
+
+.section{
+  height: 94vh;
+}
+
+/* map */
+/* Customize map container */
+#map-container {
+  background-color: #343a40; /* Set darker background color for the map container */
+  padding: 20px; /* Add padding around the map container */
+  border-radius: 10px; /* Add border radius for a rounded look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  margin-top: 50px; /* Add margin to separate it from the header */
+  margin-left: 100px; /* Adjust margin to position the map container */
+  margin-right: 50px; /* Adjust margin to position the map container */
+  
+  overflow: hidden; /* Hide overflow content */
+}
+
+#map {
+  height: auto; /* Set the height of the map container to cover its parent */
+  width: auto; /* Set the width of the map container to cover its parent */
+}
+
+#maps h2 {
+  color: white; /* Set color of the h2 element */
+  margin-bottom: 10px; /* Add margin bottom to the h2 element */
+}
+
+
+/* Container for left and right sections */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust margin as needed */
+  margin-left: 50px; /* Adjust margin as needed */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Left section containing the states details */
+.left-section {
+  width: 38%; /* Adjust width as needed */
+}
+
+/* Right section containing the map */
+.right-section {
+  width: 60%; /* Adjust width as needed */
+}
+
+/* Adjustments for the footer */
+footer {
+  position: relative; /* Set the position to relative */
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+/* Container for the images */
+.image-container {
+  display: column;
+  margin-top: 50px;
+}
+
+/* Style for the images */
+.image-container img {
+  width: auto; /* Adjust image width as needed */
+  height: auto; /* Adjust image height as needed */
+  margin-right: 0; /* Remove default margin */
+}
+
+/* Remove margin for the last image */
+.image-container img:last-child {
+  margin-right: 0;
+}
