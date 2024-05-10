@@ -1,0 +1,1 @@
+# Risk-Mitigation-and-Planning-in-Disaster-Management
